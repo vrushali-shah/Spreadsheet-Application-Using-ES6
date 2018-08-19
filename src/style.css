@@ -1,0 +1,73 @@
+
+.table-btns *{
+    background-color:#505050;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 6px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    margin: 1px;
+    border: 1px solid #1a456b;
+}
+
+.table-btns a:hover{
+background-color: #147dd8;
+    animation:
+}
+
+#add-row, #sub-row{
+    float: left;
+}
+#add-col, #sub-col{
+    float: right;
+}
+
+input {
+    border: none;
+    width: 80px;
+    font-size: 14px;
+    padding: 2px;
+}
+
+input:hover {
+    background-color: #ffffff;
+}
+
+input:focus {
+    background-color: #dfdede;
+}
+
+input:not(:focus) {
+    text-align: right;
+}
+
+td {
+    border: 1px solid #bababa;  
+}
+
+tr:first-child td, td:first-child {
+    background-color: #505050;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 1px 3px;
+}
+
+table { 
+    margin-bottom: 15px;
+    border-collapse: collapse;  
+}
+
+#download {
+	background-color:#dfdede;
+    text-decoration: none;
+    font-size: 15px;
+    color: #1e1eae;
+    width: 145px;
+    height: 28px;
+    text-align: center;
+    margin: 1px;
+    border: 1px solid #1a456b;
+}
